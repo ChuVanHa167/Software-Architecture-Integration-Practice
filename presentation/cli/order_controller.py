@@ -1,3 +1,7 @@
+# vấn đề: Tạo một controller để xử lý logic của ứng dụng trong CLI
+# ý tưởng - Tạo một lớp OrderController để xử lý logic của ứng dụng trong CLI
+# kết luận: Lớp OrderController sẽ có một phương thức run để thực hiện các bước tạo đơn hàng, thêm sản phẩm vào đơn hàng và thanh toán đơn hàng.
+
 class OrderController:
 
     def __init__(self, create_order_usecase, checkout_usecase):
